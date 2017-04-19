@@ -37,6 +37,27 @@ h2  {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: green;
+  color: white;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+  color: white;
+}
+
+a:link {
+  color:green;
+}
+
 .center {
   display: block;
   margin-left: auto;
