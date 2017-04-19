@@ -42,19 +42,26 @@ a {
 }
 
 a:hover {
-  background-color: green;
+  background-color: gray;
+  box-shadow: 0 0 5px 8px gray;
   color: white;
 }
 
-a:visited {
-    color: black;
-}
+/*a:visited {
+  background-color: green;
+  box-shadow: 0 0 5px 8px green;
+  color: black;
+}*/
 
 a:active {
+  background-color: green;
+  box-shadow: 0 0 5px 8px green;
   color: white;
 }
 
 a:link {
+  background-color: green;
+  box-shadow: 0 0 5px 8px green;
   color:green;
 }
 
